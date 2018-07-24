@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Task3 {
     public static void main(String[] args) throws IOException {
@@ -15,9 +16,12 @@ public class Task3 {
             test.add(first);
         }
 
-        test.sort(Integer::compareTo);
-        System.out.println(test.toString());
-        //System.out.println(Arrays.toString(test));
+        Collections.sort(test, (a, b) -> b.compareTo(a));
+
+        for (int t:test) {
+            System.out.println(t);
+        }
+
 
     }
 }
