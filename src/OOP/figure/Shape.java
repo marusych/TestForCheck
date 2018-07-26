@@ -1,4 +1,4 @@
-package OOP.Figure;
+package OOP.figure;
 
 public abstract class Shape {
     double positionX;
