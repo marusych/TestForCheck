@@ -17,8 +17,6 @@ public class Task10 {
             String test = reader.readLine();
             list.add(0,test);
         }
-        for (String s: list) {
-                System.out.println(s);
-        }
+
     }
 }
