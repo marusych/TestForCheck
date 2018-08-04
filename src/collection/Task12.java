@@ -14,7 +14,7 @@ public class Task12 {
         while (set.size()<5) {
             System.out.println("Введите слово на Л:");
             String key = reader.readLine();
-            if(key.substring(0,1).toUpperCase().equals("л")) {
+            if(key.substring(0,1).equalsIgnoreCase("л")) {
                 set.add(key);
             }else{
                 System.out.println("Упс, слово не начинается на Л");
