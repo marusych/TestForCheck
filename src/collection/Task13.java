@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Test13 {
+public class Task13 {
     public static void main(String[] args) throws IOException {
 //        Создать множество чисел(Set<Integer>), занести туда 20 различных чисел.
 //        Удалить из множества все числа больше 10.
