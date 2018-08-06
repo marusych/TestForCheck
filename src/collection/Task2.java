@@ -1,12 +1,10 @@
-package collections;
+package collection;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class Task2 {
     public static void main(String[] args) throws IOException {
